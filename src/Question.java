@@ -2,7 +2,7 @@
 public abstract class Question 
 {
 	//fields
-	private int number;
+	private static int number;
 	private String text;
 	
 	//constructor

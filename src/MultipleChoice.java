@@ -18,15 +18,15 @@ public class MultipleChoice extends Question
 	 //methods
 	public String toString()
 	{
-		String ch1 = AnswerChoices[0];
-		String ch2 = AnswerChoices[1];
-		String ch3 = AnswerChoices[2];
-		String ch4 = AnswerChoices[3];
-		return ""+ getNumber() + ")" + getText() + "\na)" +
-		ch1 + "\nb)" + ch2 + "\nc)" + ch3 + "\nd)" + ch4;
+		String ch1 = "a)" +AnswerChoices[0];
+		String ch2 = "b)" +AnswerChoices[1];
+		String ch3 = "c)" +AnswerChoices[2];
+		String ch4 = "d)" +AnswerChoices[3];
+		return ""+ getNumber() + ")" + getText() + "\n" +
+		ch1 + "\n" + ch2 + "\n" + ch3 + "\n" + ch4;
 	}
 	public String getSolution()
 	{
-		return ""+correctAnswer;
+		return "" + correctAnswer;
 	}
 }

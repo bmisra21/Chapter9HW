@@ -14,7 +14,7 @@ public class TrueFalse extends Question
 	//methods
 	public String toString()
 	{
-		return "" + getText() + "(True/False)?";
+		return "" + getNumber() + ") " + getText() + "(True/False)?";
 	}
 	public String getSolution()
 	{
