@@ -5,9 +5,9 @@ public class TrueFalse extends Question
 	String answer;
 	
 	//constructor
-	public TrueFalse(int num, String text, String ans)
+	public TrueFalse(String text, String ans)
 	{
-		super(num, text);
+		super( text);
 		answer = ans;
 	}
 	

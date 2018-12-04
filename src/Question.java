@@ -2,14 +2,16 @@
 public abstract class Question 
 {
 	//fields
+	private static int nextNum=1;
 	private static int number;
 	private String text;
 	
 	//constructor
-	public Question(int num,String txt)
+	public Question(String txt)
 	{
-		number=num;
+		this.number=nextNum;
 		text=txt;
+		nextNum++;
 	}
 	//methods
 	public abstract String getSolution();
